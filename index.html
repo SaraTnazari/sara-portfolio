@@ -385,6 +385,7 @@
       mask-composite: exclude;
       opacity: 0;
       transition: opacity 0.4s;
+      pointer-events: none;
     }
 
     .project-card:hover::before { opacity: 0.5; }
@@ -459,6 +460,8 @@
       font-weight: 600;
       text-decoration: none;
       transition: all 0.3s;
+      position: relative;
+      z-index: 2;
     }
 
     .link-primary {
